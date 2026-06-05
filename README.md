@@ -1,10 +1,10 @@
-# HyperMid Next.js Starter
+# Hypermid Next.js Starter
 
-A ready-to-deploy Next.js app demonstrating **HyperMid** integration -- a cross-chain swap interface with fiat on-ramp, built using the `@hypermid/sdk` TypeScript SDK.
+A ready-to-deploy Next.js app demonstrating **Hypermid** integration -- a cross-chain swap interface with fiat on-ramp, built using the `@hypermid/sdk` TypeScript SDK.
 
 Swap tokens across 11+ blockchains (Ethereum, Arbitrum, Base, Polygon, Optimism, BSC, Avalanche, Solana, NEAR, TON, TRON) with the best rates via LI.FI and Near Intents.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhypermid%2Fhypermid-nextjs-starter&env=HYPERMID_API_KEY&envDescription=Your%20HyperMid%20API%20key&project-name=hypermid-swap&repository-name=hypermid-swap)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhypermid%2Fhypermid-nextjs-starter&env=HYPERMID_API_KEY&envDescription=Your%20Hypermid%20API%20key&project-name=hypermid-swap&repository-name=hypermid-swap)
 
 ## Quick Start
 
@@ -15,7 +15,7 @@ cd hypermid-nextjs-starter
 
 # 2. Set up environment variables
 cp .env.example .env.local
-# Edit .env.local and add your HyperMid API key
+# Edit .env.local and add your Hypermid API key
 
 # 3. Install dependencies and run
 npm install
@@ -34,7 +34,7 @@ _Coming soon_
 - **Next.js 14** (App Router)
 - **TypeScript**
 - **Tailwind CSS** (dark theme)
-- **@hypermid/sdk** -- HyperMid TypeScript SDK
+- **@hypermid/sdk** -- Hypermid TypeScript SDK
 
 ## Project Structure
 
@@ -56,7 +56,7 @@ src/
     TokenInput.tsx          Token amount input with decimals
     OnrampButton.tsx        "Buy with card" button via RampNow
   lib/
-    hypermid.ts             Server-side HyperMid client instance
+    hypermid.ts             Server-side Hypermid client instance
     chains.ts               Chain metadata (names, icons, colors)
     constants.ts            Popular token addresses per chain
   hooks/
@@ -67,7 +67,7 @@ src/
 ## Key Features
 
 - **Cross-chain swaps** -- Select source/destination chains and tokens, get real-time quotes, execute swaps
-- **Server-side API proxy** -- All HyperMid API calls go through Next.js API routes, keeping your API key server-side
+- **Server-side API proxy** -- All Hypermid API calls go through Next.js API routes, keeping your API key server-side
 - **Debounced quotes** -- Quotes are fetched with 500ms debouncing to reduce API calls
 - **Status tracking** -- Visual step-by-step progress (Initiated, Processing, Complete)
 - **Fiat on-ramp** -- Buy crypto with a credit card via RampNow checkout
@@ -77,7 +77,7 @@ src/
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `HYPERMID_API_KEY` | Your HyperMid API key (server-side) | Yes |
+| `HYPERMID_API_KEY` | Your Hypermid API key (server-side) | Yes |
 | `NEXT_PUBLIC_HYPERMID_API_KEY` | Public API key (optional, for client display) | No |
 
 Get your API key at [hypermid.io](https://hypermid.io).
@@ -111,7 +111,7 @@ This starter uses manual address input. To integrate a wallet connector (e.g., R
 
 ## API Routes
 
-All API routes proxy to the HyperMid API at `https://api.hypermid.io`:
+All API routes proxy to the Hypermid API at `https://api.hypermid.io`:
 
 | Route | Method | Description |
 |-------|--------|-------------|
@@ -122,8 +122,8 @@ All API routes proxy to the HyperMid API at `https://api.hypermid.io`:
 
 ## Learn More
 
-- [HyperMid Documentation](https://docs.hypermid.io)
-- [HyperMid SDK on npm](https://www.npmjs.com/package/@hypermid/sdk)
+- [Hypermid Documentation](https://docs.hypermid.io)
+- [Hypermid SDK on npm](https://www.npmjs.com/package/@hypermid/sdk)
 - [Next.js Documentation](https://nextjs.org/docs)
 
 ## License

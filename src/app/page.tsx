@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <Image
               src="/hypermid-logo.svg"
-              alt="HyperMid"
+              alt="Hypermid"
               width={140}
               height={32}
               priority
@@ -78,7 +78,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border">
         <div className="max-w-5xl mx-auto px-4 py-6 flex items-center justify-between text-xs text-gray-500">
-          <span>Built with HyperMid SDK</span>
+          <span>Built with Hypermid SDK</span>
           <span>
             <a
               href="https://hypermid.io"

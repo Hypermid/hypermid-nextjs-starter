@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HyperMid Swap - Cross-Chain Token Swap",
+  title: "Hypermid Swap - Cross-Chain Token Swap",
   description:
-    "Swap tokens across 11+ blockchains with the best rates. Powered by HyperMid.",
+    "Swap tokens across 11+ blockchains with the best rates. Powered by Hypermid.",
   icons: {
     icon: "/hypermid-logo.svg",
   },
